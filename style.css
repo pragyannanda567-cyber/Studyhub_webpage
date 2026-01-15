@@ -1,0 +1,137 @@
+
+    *{
+        margin: 0;
+        padding: 0;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    
+    #blank{
+        width: auto;
+        height: 200px;
+        background-color: aliceblue;
+    }
+    #imge{
+        height: 200px;
+        padding: 20px;
+        border-radius: 20px;
+    }
+    #mat{
+        height: 400px;
+        background-image: url(mathimg.webp);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+
+    }
+    #sci{
+        height: 400px;
+    }
+    #cs{
+        height: 400px;
+    }
+    #s{
+        background-color: orangered;
+        border-radius: 20px;
+        padding: 40px 30px;
+        color: white;
+        border: none;
+        box-shadow: 0px 2px 3px rgb(0, 0, 1);
+        font-size: 25px;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+
+    }
+    #subs{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 50px 60px;
+        background-color: whitesmoke;
+        border: none;
+
+    }
+    #m{
+        padding:10px;
+        color: orangered;
+        border-radius: 10px;
+        border: none;
+    }
+    #btn1{
+        background-color: orangered;
+        border-radius: 10px 20px 30px ;
+        color:whitesmoke;
+        padding: 10px;
+        border: solid whitesmoke;
+
+
+    }
+    #btn2{
+        border-radius: 10px 20px 30px;
+        color:orangered;
+        background-color: aliceblue;
+        padding: 10px;
+        border: solid orangered; 
+    }
+    #na{
+
+        background-color:whitesmoke;
+        height: 30px;
+        width: auto;
+        margin: 0px;
+        border: 10px;
+        border-radius: 10px;
+        display: flex;
+        justify-content: space-evenly;
+        padding: 10px;
+        align-items: center;
+        padding: 20px 60px;
+        top: 0;
+        position: sticky;
+    }
+    #im{
+        width: 300px;
+        padding: 20px;
+        border-radius: 30px;
+    }
+    #logo{
+        color: orangered;
+        font-size: 35px;
+        font-family: fantasy;
+    }
+    #intro{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        padding: 30px 60px;
+
+
+
+    }
+    #megahero{
+        display: grid;
+        justify-items: space-evenly;
+    }
+    #hero{
+        width: 350px;
+        border-radius: 20px;
+    }
+    .footer {
+    background: #111;
+    color: white;
+    padding: 50px;
+}
+
+.footer-columns {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-columns div p {
+    color: #ccc;
+}
+
+.copyright {
+    margin-top: 20px;
+    text-align: center;
+}
