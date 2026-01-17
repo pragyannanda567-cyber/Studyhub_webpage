@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login to Studyhub!</title>
+</head>
+<body>
+    <div id="main">
+    <img id="im" src="mainimg.jpg">
+        <div id="f">
+            <div id="acc">
+                <form>
+                    <h1 id='heading'>Account Login</h1>
+                    <br><br>
+                    <input type="email" placeholder="Enter Your Email">
+                    <br><br>
+                    <input type="password" placeholder="Enter Your Password">
+                    <br><br>
+                    <button id="bt" for="Submit">Log In</button>
+                    <br><br>
+                    <p>New here? No problem! <a href="signin.html">Click Here to sign in</a></p>
+                </form>
+            </div>    
+        </div>
+    </div>     
+     
+</body>
+</html>
+<style>
+    *{
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0;
+    }
+    #im{
+        width: 800px;
+        height: auto;
+    }
+    #main{
+        display: flex;
+        justify-content: end;
+        
+
+    }
+    #f{
+        background-image: linear-gradient(to bottom right,orangered,white);
+        height: 700px;
+        width: 800px;
+        padding: 10px 20px ;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    input[type='email'],[type='password']{
+        border-radius: 20px;
+        padding: 10px 100px;
+        border: none;
+    }
+    #bt{
+        border-radius: 20px;
+        padding: 10px 162px;
+        background-color: white;
+        border: none;
+        
+    }
+    #bt:hover{
+        background-color: orangered;
+    }
+    #acc{
+        width: 500px;
+        height: 400px;
+        background-color: rgba(255, 253, 240, 0.785);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+    }
+</style>
