@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create a New Account</title>   
+</head>
+<body>
+    
+    <div id="body">
+        <div id="area">
+            <form>
+                <h1 id="head">Create an Account for<p id="Logo">Studyhub!</p></h1>
+                <br><br>
+                <input type="text" placeholder="First Name" id="name">
+                <input type="text" placeholder="Last Name" id="name">
+                <br><br>
+                <input type="email"placeholder='Email'id='inp'>
+                <br><br>
+                <input type="password"placeholder='Password'id='inp'>
+                <br><br>
+                <input type="password" placeholder="Confirm Password" id="inp">
+                <br><br>
+                <button for="Submit" id="btnn">Sign In</button>
+                <br><br>
+                <p>Already have an Account? No Problem!<a href="Login.html">Click here to login!</a></p>
+            </form>      
+        </div>
+    </div>            
+</body>
+</html>
+
+<style>
+    *{
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0;
+    }    
+    #body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 760px;
+        width: 1550px;
+        background-image: linear-gradient( to bottom, orangered, white)
+
+
+    }
+    #area{
+        width: 600px;
+        height: 500px;
+        background-color: aqua;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px 60px;
+        border: solid orangered;
+        background-color: rgba(255, 253, 240, 0.785);
+        border-radius: 20px;
+
+
+    }
+    #inp{
+        padding: 10px 170px ;
+        border-radius: 20px;
+        border: none;
+        border: solid orangered;
+
+    }
+    #name{
+        padding: 10px 43px;
+        border-radius: 20px;
+        border: none;
+        border: solid orangered;
+
+    }
+    #btnn{
+        padding:10px 230px;
+        border: none;
+        border-radius: 20px;
+        border: solid orangered;
+    }
+    #btnn:hover{
+        background-color: orangered;
+    }
+    #Logo{
+        color: orangered;
+        font-size: 35px;
+        font-family: fantasy
+    }
+</style>
